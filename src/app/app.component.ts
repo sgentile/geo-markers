@@ -38,9 +38,10 @@ export class AppComponent {
 
     this.pixiOverlayWrapper = new PixiOverlayWrapper(this.map, {
       'white': '/assets/white-marker.png'
-    });            
-    
-    
+    }, {
+      minScale: 0,
+      maxScale: 5
+    });  
   }
 
   load() {
