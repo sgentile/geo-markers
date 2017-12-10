@@ -9,5 +9,13 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
-  ]
+  ],
+  "paths": {
+    "leaflet-pixi-overlay":[
+      "../node_modules/leaflet-pixi-overlay/L.PixiOverlay.js"
+    ],
+    "pixi-overlay-markers":[
+      "../node_modules/pixi-overlay-markers/index.js"
+    ]
+  }
 }
